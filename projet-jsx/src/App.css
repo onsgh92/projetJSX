@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+col{
+flex-direction: column;
+
+}
+form{
+background-color: rgba(105, 105, 105, 0.658);
+width: 1300px;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+text-align:center;
+
+}
+col{
+padding: 30px;
+
+
+}
+.label{
+padding: 20px;
+margin-left: 0px;
+
+
+}
+.App-header {
+  background-image:url(https://img-0.journaldunet.com/4NY75I2dvwVYZ9ZPhlCW_EI0Pt0=/1500x/smart/0c50bea7f5ee4303aa974138907ba05a/ccmcms-jdn/10214876.jpg);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.g-2{
+justify-content: space-around;
+display: flex;
+  padding:60px;
+}
+section{
+width: 1300px;
+height: 700px;
+margin: 50px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
